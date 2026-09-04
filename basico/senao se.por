@@ -14,9 +14,9 @@ programa
 		leia (nota) 
 		se (nota < 0 ou nota > 100) {
 			escreva("erro")
-			}senao se (nota>=0 ou nota  < 40){
+			}senao se (nota>=0 e nota  < 40){
 				escreva ("reprovado direto")
-			}senao se (nota >= 40 ou nota < 60){
+			}senao se (nota >= 40 e nota < 60){
                           escreva ( "recuperaçao" )
 			}senao{
                 	escreva ("Aprovado")
